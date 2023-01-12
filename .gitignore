@@ -4,4 +4,6 @@
 /client/node_modules
 /client/package-lock.json
 
+/common/node_modules
+/common/package-lock.json
 
