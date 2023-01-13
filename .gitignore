@@ -4,6 +4,9 @@
 /client/node_modules
 /client/package-lock.json
 
+/tickets/node_modules
+/tickets/package-lock.json
+
 /common
 
 
