@@ -14,3 +14,6 @@ npm publish --access public
 npm version patch
 npm run build
 npm publish
+
+###### Port Forwarding
+kubectl port-forward nats-depl-78b79cc9c5-7rg8f 4222:4222
