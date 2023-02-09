@@ -16,4 +16,4 @@ npm run build
 npm publish
 
 ###### Port Forwarding
-kubectl port-forward nats-depl-78b79cc9c5-7rg8f 4222:4222
+kubectl port-forward nats-depl-5cc6fd66c9-br5mm 4222:4222
