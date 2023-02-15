@@ -13,6 +13,9 @@
 /orders/node_modules
 /orders/package-lock.json
 
+/expiration/node_modules
+/expiration/package-lock.json
+
 /common
 
 

@@ -37,6 +37,16 @@ build:
         dest: .
     docker:
       dockerfile: Dockerfile 
+
+  - image: amosnyagar/expiration
+    context: expiration
+    sync:
+      manual:
+      - src: '**/*.js'
+        dest: .
+    docker:
+      dockerfile: Dockerfile 
+
   
   
   local:
