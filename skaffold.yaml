@@ -47,6 +47,15 @@ build:
     docker:
       dockerfile: Dockerfile 
 
+  - image: amosnyagar/payments
+    context: payments
+    sync:
+      manual:
+      - src: '**/*.js'
+        dest: .
+    docker:
+      dockerfile: Dockerfile       
+
   
   
   local:

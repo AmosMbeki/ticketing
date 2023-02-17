@@ -16,6 +16,9 @@
 /expiration/node_modules
 /expiration/package-lock.json
 
+/payments/node_modules
+/payments/package-lock.json
+
 /common
 
 
